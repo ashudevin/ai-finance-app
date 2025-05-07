@@ -1,185 +1,154 @@
 {
   "node": {
-    "7f242e7ea905a8dc9d2da24f9e149b6ff779d9882b": {
+    "c6d010fcbe952c8b980183aed6ed33e68cbc7e1f": {
       "workers": {
-        "app/page": {
-          "moduleId": "[project]/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        },
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/page": "action-browser",
-        "app/(main)/transaction/create/page": "action-browser",
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc"
       }
     },
-    "0000a0ec88ad43a2363f0019fe4e2321d1a6048ad0": {
+    "ca32f9072bfe52c343ea61f8da3684427e21c8fa": {
       "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(main)/transaction/create/page": "rsc",
-        "app/(main)/dashboard/page": "rsc"
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc"
       }
     },
-    "002cfd96a1ed7381f599ad77cae686c50ca7cd6dd5": {
+    "fea2f33d8f68b0bc3bfbef705ceab768c75e211f": {
       "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(main)/transaction/create/page": "rsc",
-        "app/(main)/dashboard/page": "rsc"
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc"
       }
     },
-    "4045f043650dc8fe2000768f14dee2b13edfd2936d": {
+    "2424c5a10034253d95dd2eaba7bfbd6413b6d879": {
       "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc"
-      }
-    },
-    "60bcd5bde8b20bce5ab7f6783e241b8306018bdb0b": {
-      "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc"
-      }
-    },
-    "40f4259b151a0829061e10fbaf2e8a65cc54680325": {
-      "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        },
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc",
-        "app/(main)/dashboard/page": "rsc"
-      }
-    },
-    "4034738262df9a6795cfe38e0cd30535c2190bee1c": {
-      "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc"
-      }
-    },
-    "40c8feb87fb59231290b8d6a8d3bf79e2ce01441bc": {
-      "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc"
-      }
-    },
-    "401e3aee1d981f4fb185a9bae235909cb94bbef373": {
-      "workers": {
-        "app/(main)/transaction/create/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/transaction/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/transaction.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/transaction/create/page": "rsc"
-      }
-    },
-    "40bba72744231a7906a5ebe73c1ec29fca0843438d": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "action-browser"
-      }
-    },
-    "40ee969ca431ff02b7ecbdf4f8bb35d37a216bebc6": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(main)/dashboard/page": "action-browser"
-      }
-    },
-    "407d28f807a5c31cd9587d74f48a1578cb5279fbeb": {
-      "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(main)/dashboard/page": "rsc"
       }
     },
-    "4023c4caecc83b43c6e3a5b3a3428049f26ad23524": {
+    "63105031abe73234b6c457872849bbb335202dbb": {
       "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
         "app/(main)/dashboard/page": "rsc"
       }
     },
-    "409f7015f012c7be8ebd1985b584faa70deb0d840e": {
+    "2ced13bb36a172b6f2578b3d751a84c6d72bd325": {
       "workers": {
-        "app/(main)/dashboard/page": {
-          "moduleId": "[project]/.next-internal/server/app/(main)/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/dashboard.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/budget.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/actions/account.js [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
-          "async": false
-        }
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
       },
       "layer": {
-        "app/(main)/dashboard/page": "action-browser"
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc",
+        "app/(main)/account/[id]/page": "rsc",
+        "app/page": "rsc"
+      }
+    },
+    "551887cc8487351650e15c2e84d6862b493fbed4": {
+      "workers": {
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc",
+        "app/(main)/account/[id]/page": "rsc",
+        "app/page": "rsc"
+      }
+    },
+    "62ed762f96161c1debb60fd93dd36cdb74f559ba": {
+      "workers": {
+        "app/(main)/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cdashboard.js%22%2C%5B%22getUserAccounts%22%2C%22createAccount%22%2C%22getDashboardData%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Cbudget.js%22%2C%5B%22getCurrentBudget%22%2C%22updateBudget%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!",
+        "app/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "rsc",
+        "app/(main)/report/page": "rsc",
+        "app/(main)/account/[id]/page": "rsc",
+        "app/page": "rsc"
+      }
+    },
+    "03bd757326807c521d3a40c7ef238dbd259a192b": {
+      "workers": {
+        "app/(main)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "action-browser",
+        "app/(main)/account/[id]/page": "rsc"
+      }
+    },
+    "1b045cfa3af5076bb9715da61ca60013d6428c8c": {
+      "workers": {
+        "app/(main)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "action-browser",
+        "app/(main)/account/[id]/page": "rsc"
+      }
+    },
+    "f9264ac6cdc79869cb92513d1fd5455627a2ebb0": {
+      "workers": {
+        "app/(main)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/[id]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "action-browser",
+        "app/(main)/account/[id]/page": "rsc"
+      }
+    },
+    "4c39bcd4dcb349a2c6b0bff4ee3ab11dd1e4ddb0": {
+      "workers": {
+        "app/(main)/dashboard/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cactions%5C%5Caccount.js%22%2C%5B%22getAccountWithTransactions%22%2C%22bulkDeleteTransactions%22%2C%22updateDefaultAccount%22%5D%5D%2C%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/report/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/(main)/account/[id]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!",
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%22invalidateCacheAction%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(main)/dashboard/page": "action-browser",
+        "app/(main)/report/page": "action-browser",
+        "app/(main)/account/[id]/page": "action-browser",
+        "app/page": "action-browser"
+      }
+    },
+    "03235c72e3606d3bd716eaaf754df4a594f1beea": {
+      "workers": {
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/report/page": "rsc"
+      }
+    },
+    "3b09c246170f1d49258b8f4ed579937af459ec55": {
+      "workers": {
+        "app/(main)/report/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5CWeb%20Development%5C%5CProjects%5C%5Cai-finance-platform%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%22createOrReadKeylessAction%22%2C%22syncKeylessConfigAction%22%2C%22deleteKeylessAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/(main)/report/page": "rsc"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "9XUo2BfinItKFQ2EVf+RTGmHfe67hQ/VvVpxg0ZnqQ8="
+  "encryptionKey": "UoeDSAY9oNTeS+5WPnQYo4AgENmsPaYSLQv+xSJBTMU="
 }
